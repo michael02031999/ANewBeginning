@@ -16,35 +16,36 @@
     'Helvetica Neue', Arial, sans-serif;
   }
 
-  h2 {
-    font-size: 40px;
-    text-align: center;
-  }
-
-  .container {
-    background-color: #ffffff;
-  }
-
-  .mini-container{
-      background-color: #eeeeee;
-      margin: 2em 1em;
-  }
-
-  .image {
-      background-color: #ffffff;
-      width: 98%;
-      margin: 0 auto;
+  h1 {
+      font-size: 2.3rem;
+      text-align: center;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
   }
 
   img {
       display: block;
-      margin: 0 auto;
-      text-align: center;
-      width: 50%;
+      max-width: 100%;
+      margin: 0 auto;     
   }
 
-  p {
-      font-size: 1.4rem;
+  .subtitle {
       text-align: center;
-      margin: 0.5em 1em;
+      padding-top: 0.5em;
+      padding-bottom: 0.75em;
+  }
+
+  .container {
+      background-color: #ffffff;
+      padding: 2em 1em;
+  }
+  .mini-container {
+      background-color: #eeeeee;
+  }
+
+  .img-div {
+      background-color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin: 0;
   }
