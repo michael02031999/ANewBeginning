@@ -19,33 +19,51 @@
   h1 {
       font-size: 2.3rem;
       text-align: center;
-      padding-top: 0.5em;
+      padding-top: 1em;
       padding-bottom: 0.5em;
   }
 
+  .subtitle {
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.35em;
+    }
+
   img {
       display: block;
-      max-width: 100%;
+      width: 80%;
       margin: 0 auto;     
   }
 
-  .subtitle {
-      text-align: center;
-      padding-top: 0.5em;
-      padding-bottom: 0.75em;
-  }
-
   .container {
-      background-color: #ffffff;
-      padding: 2em 1em;
-  }
-  .mini-container {
+      margin: 1.8em 0.5em;
       background-color: #eeeeee;
   }
 
   .img-div {
       background-color: white;
-      padding-left: 10px;
-      padding-right: 10px;
-      margin: 0;
+      margin: 1em 2em;
   }
+
+  .caption {
+      display: block;
+      text-align: center;
+      line-height: 3;
+  }
+
+  #headline {
+      text-align: center;
+  }
+
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+
+  li {
+      list-style: disc;
+      margin: 0 auto;
+  }
+
