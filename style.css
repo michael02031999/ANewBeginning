@@ -53,6 +53,8 @@
 
   #headline {
       text-align: center;
+      margin-top: 3em;
+      margin-bottom: 3em;
   }
 
   ul {
@@ -64,6 +66,24 @@
 
   li {
       list-style: disc;
-      margin: 0 auto;
+      margin: 16px 0;
   }
 
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
+
+  blockquote p {
+      padding-bottom: 2em;
+  }
+  
+  blockquote cite {
+      padding-top: 1em;
+  }
+
+  h3 {
+      text-align: center;
+  }
